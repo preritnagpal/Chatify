@@ -59,12 +59,12 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Prerit Nagpal";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Chatify";
+            $("#favicon").attr("href", "img/logo.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            document.title = "Come Back To Chatify";
+            $("#favicon").attr("href", "img/logo.png");
         }
     });
 
